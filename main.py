@@ -17,7 +17,7 @@ profile_pic = current_dir /"assets" /"2189.png"
 Page_TITLE = "My Portfolio"
 PAGE_ICON = "🌐"
 NAME = "Hi, my name is Mahdi 👋🏼"
-TITLE = "Transforming Data into Decisions: A Data Scientist’s Story"
+TITLE = "Transforming Data into Decisions: A Data Scientist's Story"
 DESCRIPTION = "Data is the canvas, and analytics is my brush. This portfolio is a reflection of my journey—a blend of creativity, science, and problem-solving to transform data into impactful solutions."
 EMAIL = "mirhashemim7@gmail.com"
 SOCIAL_MEDIA = {
@@ -139,12 +139,12 @@ with st.container():
     st.subheader ("My Expertise")
     st.write (
         """
-    - 🟢	**Data Analysis Tools:** Excel, Power BI, RStudio, VSCode
-    - 🟢	**Programming:** SQL, Python, DAX (basic knowledge), R, MATLAB
-    - 🟢	**Analytical Skills:** Data governance, Trend analysis, forecasting, variance analysis
-    - 🟢	**Dashboard Creation:** Financial dashboards highlighting key performance indicators.
-    - 🟢	**Technical Skills:** Data visualization, data modelling, Data preprocessing, Data Governance 
-    - 🟢	**Software & Systems:** Influencing skill, report automation, Decision Making, Analytical Thinking, Problem solving, Data interpretation, Attention to detail, Organizational skills.
+    - 🟢	**Data Analysis Tools:** `Excel` , `Power BI` , `RStudio` , `VSCode`
+    - 🟢	**Programming:**         `SQL` , `Python` , `DAX` , `R`, `MATLAB`
+    - 🟢	**Analytical Skills:**   `Data governance` , `Trend analysis` , `forecasting` , `variance analysis`
+    - 🟢	**Dashboard Creation:**  `Financial dashboards highlighting key performance indicators`
+    - 🟢	**Technical Skills:**    `Data visualization` , `Data Modelling` , `Data Preprocessing` , `Data Governance` 
+    - 🟢	**Software & Systems:**  `Influencing Skill` , `Report Automation` , `Decision Making` , `Analytical Thinking` , `Problem Solving` , `Data Interpretation` , `Attention To Detail` , `Organizational Skills`
 
 
     """
@@ -158,8 +158,8 @@ with st.container():
     st.write ("---")
 
     # --- JOB 1
-    st.write ("**EmadAra Co. Ltd. - Financial Systems Engineer / Data Analyst**")
-    st.write ("September 2023 - October 2024", "(1 Year, 1 Month)")
+    st.write ("**EmadAra Co. Ltd. - `Financial Systems Engineer / Data Analyst`**")
+    st.write ("September 2023 - October 2024", "(`1 Year, 1 Month`)")
     st.write (
         """
     - ✅	Analysed financial performance and provided insights to improve decision-making.
@@ -171,11 +171,11 @@ with st.container():
     st.write ("##")
 
     # --- JOB 2
-    st.write ("**RayaPakhsh Co. - Senior Sale Operations Specialist**")
-    st.write ("May 2022 - August 2023", "(1 Year, 3 Months)")
+    st.write ("**RayaPakhsh Co. - `Senior Sale Operations Specialist`**")
+    st.write ("May 2022 - August 2023", "(`1 Year, 3 Months`)")
     st.write (
         """
-    - ✅	Controlled financial documents and created vital reports in Excel and Power BI.
+    - ✅	Controlled financial documents and created vital reports in `Excel` and `Power BI`.
     - ✅	Built and streamlined the selling process for improved accuracy.
     - ✅	Calculated employee salaries and monitored monthly cash flows.
     - ✅	Monitored the profit and loss gaps to ensure financial stability.
@@ -187,16 +187,16 @@ with st.container():
     st.write ("##")
 
     # --- JOB 3
-    st.write ("**HamrahanSystemGohar Co. - Software Engineer | Financial Analyst**")
-    st.write ("April 2018 - April 2022", "(4 Years)")
+    st.write ("**HamrahanSystemGohar Co. - `Software Engineer | Financial Analyst`**")
+    st.write ("April 2018 - April 2022", "(`4 Years`)")
     st.write (
         """
     - ✅	Managed financial software implementations for customers.
     - ✅	Delivered financial services and resolved customer issues related to software and accounting.
-    - ✅	Enhanced reporting functionalities in the company's financial software.
-    - ✅	Developed custom financial reports using Excel and Power BI for improved decision-making.
-    - ✅	Conducted detailed financial analysis to support strategic business planning.
-    - ✅	Developed and maintained financial models for budgeting and forecasting.
+    - ✅	`Enhanced reporting` functionalities in the company's financial software.
+    - ✅	Developed custom `financial reports` using `Excel` and `Power BI` for improved `decision-making`.
+    - ✅	Conducted detailed financial analysis to support strategic `business planning`.
+    - ✅	Developed and maintained `financial models` for `budgeting` and `forecasting`.
     - ✅	Collaborated with senior management to provide key financial insights.
 
     """
@@ -232,7 +232,7 @@ with st.container():
     # --- UNDERGRADUATE
     st.write ("**Islamic Azad University - Finance & Accounting**")
     st.write ("September 2014 - March 2018")
-    st.write ("GPA: 17.22 out 20.00")
+    st.write ("GPA: `17.22 out 20.00`")
     st.write (
         """
     - ✅	
