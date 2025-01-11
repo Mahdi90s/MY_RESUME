@@ -136,7 +136,7 @@ with st.container():
 
     # --- skills ---
     st.write ("#")
-    st.subheader ("Hard Skills")
+    st.subheader ("My Expertise")
     st.write (
         """
     - 🟢	**Data Analysis Tools:** Excel, Power BI, RStudio, VSCode
