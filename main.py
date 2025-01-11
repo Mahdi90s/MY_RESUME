@@ -119,93 +119,93 @@ with st.container():
                     I thrive on collaboration and delivering results that make a measurable impact, whether it's optimizing business operations, improving sales performance, or advancing innovation in the biopharmaceutical space.
                 """)
                 
-        # --- EXPERIENCE & QUALIFICATIONS ---
-        st.write ("#")
-        st.subheader ("Experience & Qulifications")
-        st.write (
-            """
-        - A
-        - B
-        - C
+# --- EXPERIENCE & QUALIFICATIONS ---
+st.write ("#")
+st.subheader ("Experience & Qulifications")
+st.write (
+    """
+- A
+- B
+- C
 
-        """
-        )
-
-
-
-
-        # --- skills ---
-        st.write ("#")
-        st.subheader ("Hard Skills")
-        st.write (
-            """
-        - 1
-        - 2
-        - 3
-
-        """
-        )
+"""
+)
 
 
 
-        # --- WORK HISTORY ---
-        st.write ("#")
-        st.subheader ("work History")
-        st.write ("---")
 
-        # --- JOB 1
-        st.write ("**EmadAra Co. Ltd. - Financial Systems Engineer / Data Analyst**")
-        st.write ("September 2023 - October 2024", "(1 Year, 1 Month)")
-        st.write (
-            """
-        - ✅	Analysed financial performance and provided insights to improve decision-making.
-        - ✅	Developed interactive dashboards using Power BI to track key financial metrics.
-        - ✅	Assisted in budgeting, forecasting, and variance analysis.
+# --- skills ---
+st.write ("#")
+st.subheader ("Hard Skills")
+st.write (
+    """
+- 1
+- 2
+- 3
 
-        """
-        )
-        st.write ("##")
-
-        # --- JOB 2
-        st.write ("**RayaPakhsh Co. - Senior Sale Operations Specialist**")
-        st.write ("May 2022 - August 2023", "(1 Year, 3 Months)")
-        st.write (
-            """
-        - ✅	Controlled financial documents and created vital reports in Excel and Power BI.
-        - ✅	Built and streamlined the selling process for improved accuracy.
-        - ✅	Calculated employee salaries and monitored monthly cash flows.
-        - ✅	Monitored the profit and loss gaps to ensure financial stability.
-        - ✅	Managed and controlled the company’s financial software system.
-        - ✅	Trained new employees on financial processes and software systems.
-
-        """
-        )
-        st.write ("##")
-
-        # --- JOB 3
-        st.write ("**HamrahanSystemGohar Co. - Software Engineer | Financial Analyst**")
-        st.write ("April 2018 - April 2022", "(4 Years)")
-        st.write (
-            """
-        - ✅	Managed financial software implementations for customers.
-        - ✅	Delivered financial services and resolved customer issues related to software and accounting.
-        - ✅	Enhanced reporting functionalities in the company’s financial software.
-        - ✅	Developed custom financial reports using Excel and Power BI for improved decision-making.
-        - ✅	Conducted detailed financial analysis to support strategic business planning.
-        - ✅	Developed and maintained financial models for budgeting and forecasting.
-        - ✅	Collaborated with senior management to provide key financial insights.
-
-        """
-        )
+"""
+)
 
 
 
-        # --- Projects & Accomplishments --- 
-        st.write ("#")
-        st.subheader ("Projects & Accomplishments")
-        st.write("---")
-        for project, link in PROJECT.items():
-            st.write(f"[{project}]({link})")
+# --- WORK HISTORY ---
+st.write ("#")
+st.subheader ("work History")
+st.write ("---")
+
+# --- JOB 1
+st.write ("**EmadAra Co. Ltd. - Financial Systems Engineer / Data Analyst**")
+st.write ("September 2023 - October 2024", "(1 Year, 1 Month)")
+st.write (
+    """
+- ✅	Analysed financial performance and provided insights to improve decision-making.
+- ✅	Developed interactive dashboards using Power BI to track key financial metrics.
+- ✅	Assisted in budgeting, forecasting, and variance analysis.
+
+"""
+)
+st.write ("##")
+
+# --- JOB 2
+st.write ("**RayaPakhsh Co. - Senior Sale Operations Specialist**")
+st.write ("May 2022 - August 2023", "(1 Year, 3 Months)")
+st.write (
+    """
+- ✅	Controlled financial documents and created vital reports in Excel and Power BI.
+- ✅	Built and streamlined the selling process for improved accuracy.
+- ✅	Calculated employee salaries and monitored monthly cash flows.
+- ✅	Monitored the profit and loss gaps to ensure financial stability.
+- ✅	Managed and controlled the company’s financial software system.
+- ✅	Trained new employees on financial processes and software systems.
+
+"""
+)
+st.write ("##")
+
+# --- JOB 3
+st.write ("**HamrahanSystemGohar Co. - Software Engineer | Financial Analyst**")
+st.write ("April 2018 - April 2022", "(4 Years)")
+st.write (
+    """
+- ✅	Managed financial software implementations for customers.
+- ✅	Delivered financial services and resolved customer issues related to software and accounting.
+- ✅	Enhanced reporting functionalities in the company’s financial software.
+- ✅	Developed custom financial reports using Excel and Power BI for improved decision-making.
+- ✅	Conducted detailed financial analysis to support strategic business planning.
+- ✅	Developed and maintained financial models for budgeting and forecasting.
+- ✅	Collaborated with senior management to provide key financial insights.
+
+"""
+)
+
+
+
+# --- Projects & Accomplishments --- 
+st.write ("#")
+st.subheader ("Projects & Accomplishments")
+st.write("---")
+for project, link in PROJECT.items():
+    st.write(f"[{project}]({link})")
     
     with right_column:
         st_lottie (lottie_coding, height=300, key="coding")
