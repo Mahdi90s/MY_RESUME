@@ -110,10 +110,10 @@ with st.container():
     with left_column:
         st.header ("What I do")
         st.write ("""
-                    I specialize in turning complex data into actionable insights that drive decision-making and innovation. As a Data Science Master's student with a strong background in financial analysis, I bring a unique blend of analytical skills and technical expertise to every project. I work with programming languages like Python and R to build predictive models, SQL to manage and query large datasets, and tools like Power BI to create compelling data visualizations. My focus areas include:
+                    I specialize in turning complex data into actionable insights that drive `decision-making` and innovation. As a `Data Science` Master's student with a strong background in financial analysis, I bring a unique blend of analytical skills and technical expertise to every project. I work with programming languages like `Python` and `R` to build predictive models, `SQL` to manage and query large datasets, and tools like `Power BI` to create compelling `data visualizations`. My focus areas include:
 
-                    - ✔️ Developing machine learning models for financial forecasting and optimization.
-                    - ✔️ Crafting interactive dashboards to visualize performance metrics and trends.
+                    - ✔️ Developing `machine learning` models for financial forecasting and optimization.
+                    - ✔️ Crafting `interactive dashboards` to visualize performance metrics and trends.
                     - ✔️ Applying data science techniques to solve real-world problems in healthcare, finance, and beyond.
 
                     I thrive on collaboration and delivering results that make a measurable impact, whether it's optimizing business operations, improving sales performance, or advancing innovation in the biopharmaceutical space.
