@@ -26,8 +26,8 @@ SOCIAL_MEDIA = {
 }
 
 PROJECT = {
-    "A": "1",
-    "B": "2"
+    "A": "--",
+    "B": "--"
     
 }
 
@@ -154,7 +154,7 @@ with st.container():
 
     # --- WORK HISTORY ---
     st.write ("#")
-    st.subheader ("work History")
+    st.subheader ("Work History")
     st.write ("---")
 
     # --- JOB 1
@@ -179,7 +179,7 @@ with st.container():
     - ✅	Built and streamlined the selling process for improved accuracy.
     - ✅	Calculated employee salaries and monitored monthly cash flows.
     - ✅	Monitored the profit and loss gaps to ensure financial stability.
-    - ✅	Managed and controlled the company’s financial software system.
+    - ✅	Managed and controlled the company's financial software system.
     - ✅	Trained new employees on financial processes and software systems.
 
     """
@@ -193,7 +193,7 @@ with st.container():
         """
     - ✅	Managed financial software implementations for customers.
     - ✅	Delivered financial services and resolved customer issues related to software and accounting.
-    - ✅	Enhanced reporting functionalities in the company’s financial software.
+    - ✅	Enhanced reporting functionalities in the company's financial software.
     - ✅	Developed custom financial reports using Excel and Power BI for improved decision-making.
     - ✅	Conducted detailed financial analysis to support strategic business planning.
     - ✅	Developed and maintained financial models for budgeting and forecasting.
@@ -208,6 +208,39 @@ with st.container():
     st.write("---")
     for project, link in PROJECT.items():
         st.write(f"[{project}]({link})")
+     
+     
+     # --- EDUCATION HISTORY ---
+    st.write ("#")
+    st.subheader ("Where I've Studied")
+    st.write ("---")
+
+    # --- POSTGRADUCATE
+    st.write ("**University of Essex - MSc. Data Science**")
+    st.write ("October 2024 - October 2025")
+    st.write ("GPA: ")
+    st.write (
+        """
+    - ✅	
+    - ✅	
+    - ✅	
+
+    """
+    )
+    st.write ("##")
+
+    # --- UNDERGRADUATE
+    st.write ("**Islamic Azad University - Finance & Accounting**")
+    st.write ("September 2014 - March 2018")
+    st.write ("GPA: 17.22 out 20.00")
+    st.write (
+        """
+    - ✅	
+    - ✅	
+    - ✅	
+
+    """
+    )   
     
     
     with right_column:
