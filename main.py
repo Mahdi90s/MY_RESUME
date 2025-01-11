@@ -21,9 +21,10 @@ TITLE = "Transforming Data into Decisions: A Data Scientist’s Story"
 DESCRIPTION = "Data is the canvas, and analytics is my brush. This portfolio is a reflection of my journey—a blend of creativity, science, and problem-solving to transform data into impactful solutions."
 EMAIL = "mirhashemim7@gmail.com"
 SOCIAL_MEDIA = {
-    "LinkedIn": "www.linkedin.com/in/mirmahdi-mirhashemi",
-    "GitHub": "https://github.com/Mahdi90s"    
+    "LinkedIn": "https://www.linkedin.com/in/mirmahdi-mirhashemi",
+    "GitHub": "https://github.com/Mahdi90s",
 }
+
 PROJECT = {
     "A": "1",
     "B": "2"
@@ -85,18 +86,38 @@ with col2:
     st.write("✉️", EMAIL)
     
      # --- SOCIAL LINKS ---
-    items = " | ".join([f"[{platform}]({link})" for platform, link in SOCIAL_MEDIA.items()])
-    st.markdown(items)
-    
-    
 
+    # Icon URLs
+    icon_urls = {
+        "LinkedIn": "https://cdn-icons-png.flaticon.com/512/174/174857.png",  # LinkedIn icon
+        "GitHub": "https://cdn-icons-png.flaticon.com/512/733/733553.png",      # GitHub icon
+    }
+
+    # Generate HTML for icons
+    items = " ".join(
+        f'<a href="{link}" target="_blank" style="text-decoration: none; margin-right: 15px;">'
+        f'<img src="{icon_urls[platform]}" alt="{platform}" style="width:24px; height:24px;">'
+        f'</a>'
+        for platform, link in SOCIAL_MEDIA.items()
+    )
+
+    # Render icons in Streamlit
+    st.markdown(items, unsafe_allow_html=True)
 
 with st.container():
     st.write("---", )
     left_column, right_column = st.columns(2)
     with left_column:
         st.header ("What I do")
-        st.write ("#")
+        st.write ("""
+I specialize in turning complex data into actionable insights that drive decision-making and innovation. As a Data Science Master's student with a strong background in financial analysis, I bring a unique blend of analytical skills and technical expertise to every project. I work with programming languages like Python and R to build predictive models, SQL to manage and query large datasets, and tools like Power BI to create compelling data visualizations. My focus areas include:
+
+- ✔️ Developing machine learning models for financial forecasting and optimization.
+- ✔️ Crafting interactive dashboards to visualize performance metrics and trends.
+- ✔️ Applying data science techniques to solve real-world problems in healthcare, finance, and beyond.
+
+I thrive on collaboration and delivering results that make a measurable impact, whether it's optimizing business operations, improving sales performance, or advancing innovation in the biopharmaceutical space.
+                     """)
                 
         # --- EXPERIENCE & QUALIFICATIONS ---
         st.write ("#")
