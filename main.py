@@ -139,9 +139,13 @@ with st.container():
     st.subheader ("Hard Skills")
     st.write (
         """
-    - 1
-    - 2
-    - 3
+    - 🟢	**Data Analysis Tools:** Excel, Power BI, RStudio, VSCode
+    - 🟢	**Programming:** SQL, Python, DAX (basic knowledge), R, MATLAB
+    - 🟢	**Analytical Skills:** Data governance, Trend analysis, forecasting, variance analysis
+    - 🟢	**Dashboard Creation:** Financial dashboards highlighting key performance indicators.
+    - 🟢	**Technical Skills:** Data visualization, data modelling, Data preprocessing, Data Governance 
+    - 🟢	**Software & Systems:** Influencing skill, report automation, Decision Making, Analytical Thinking, Problem solving, Data interpretation, Attention to detail, Organizational skills.
+
 
     """
     )
