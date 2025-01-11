@@ -141,8 +141,8 @@ with st.container():
         """
     - 🟢	**Data Analysis Tools:** `Excel` , `Power BI` , `RStudio` , `VSCode`
     - 🟢	**Programming:**         `SQL` , `Python` , `DAX` , `R`, `MATLAB`
-    - 🟢	**Analytical Skills:**   `Data governance` , `Trend analysis` , `forecasting` , `variance analysis`
-    - 🟢	**Dashboard Creation:**  `Financial dashboards highlighting key performance indicators`
+    - 🟢	**Analytical Skills:**   `Data Governance` , `Trend Analysis` , `Forecasting` , `Variance Analysis`
+    - 🟢	**Dashboard Creation:**  `Financial Dashboards Highlighting Key Performance Indicators`
     - 🟢	**Technical Skills:**    `Data visualization` , `Data Modelling` , `Data Preprocessing` , `Data Governance` 
     - 🟢	**Software & Systems:**  `Influencing Skill` , `Report Automation` , `Decision Making` , `Analytical Thinking` , `Problem Solving` , `Data Interpretation` , `Attention To Detail` , `Organizational Skills`
 
