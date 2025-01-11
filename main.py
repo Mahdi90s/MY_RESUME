@@ -154,39 +154,46 @@ with st.container():
         st.write ("---")
 
         # --- JOB 1
-        st.write ("**Data Analyst**")
-        st.write ("02/2020 - Present")
+        st.write ("**EmadAra Co. Ltd. - Financial Systems Engineer / Data Analyst**")
+        st.write ("September 2023 - October 2024", "(1 Year, 1 Month)")
         st.write (
             """
-        - D
-        - DD
-        - DDDD
+        - ✅	Analysed financial performance and provided insights to improve decision-making.
+        - ✅	Developed interactive dashboards using Power BI to track key financial metrics.
+        - ✅	Assisted in budgeting, forecasting, and variance analysis.
+
         """
         )
+        st.write ("#")
 
         # --- JOB 2
-        st.write ("**Data Analyst**")
-        st.write ("02/2020 - Present")
+        st.write ("**RayaPakhsh Co. - Senior Sale Operations Specialist**")
+        st.write ("May 2022 - August 2023", "(1 Year, 3 Months)")
         st.write (
             """
-        - D
-        - DD
-        - DDDD
+        - ✅	Controlled financial documents and created vital reports in Excel and Power BI.
+        - ✅	Built and streamlined the selling process for improved accuracy.
+        - ✅	Calculated employee salaries and monitored monthly cash flows.
+        - ✅	Monitored the profit and loss gaps to ensure financial stability.
+        - ✅	Managed and controlled the company’s financial software system.
+        - ✅	Trained new employees on financial processes and software systems.
+
         """
         )
+        st.write ("#")
 
         # --- JOB 3
-        st.write ("**Software Engineer | Financial Analyst**")
-        st.write ("April 2018 - April 2022")
+        st.write ("**HamrahanSystemGohar Co. - Software Engineer | Financial Analyst**")
+        st.write ("April 2018 - April 2022", "(4 Years)")
         st.write (
             """
-        - ✅	Managed financial software implementations for customers
-        - ✅	Delivered financial services and resolved customer issues related to software and accounting
-        - ✅	Enhanced reporting functionalities in the company’s financial software
-        - ✅	Developed custom financial reports using Excel and Power BI for improved decision-making
-        - ✅	Conducted detailed financial analysis to support strategic business planning
-        - ✅	Developed and maintained financial models for budgeting and forecasting
-        - ✅	Collaborated with senior management to provide key financial insights
+        - ✅	Managed financial software implementations for customers.
+        - ✅	Delivered financial services and resolved customer issues related to software and accounting.
+        - ✅	Enhanced reporting functionalities in the company’s financial software.
+        - ✅	Developed custom financial reports using Excel and Power BI for improved decision-making.
+        - ✅	Conducted detailed financial analysis to support strategic business planning.
+        - ✅	Developed and maintained financial models for budgeting and forecasting.
+        - ✅	Collaborated with senior management to provide key financial insights.
 
         """
         )
