@@ -10,6 +10,7 @@ css_file = current_dir /"styles" /"main.css"
 resume_file = current_dir /"assets" /"Mirmahdi Mirhashemi CV.pdf"
 coverlatter_file = current_dir /"assets" /"Mirmahdi Mirhashemi Cover Latter.pdf"
 profile_pic = current_dir /"assets" /"2189.png"
+QUALIFICATIONS_i = current_dir /"assets" /"CertificateOfCompletion_Python Essential Training_page-0001.png"
 
 
 
@@ -119,20 +120,19 @@ with st.container():
                     I thrive on collaboration and delivering results that make a measurable impact, whether it's optimizing business operations, improving sales performance, or advancing innovation in the biopharmaceutical space.
                 """)
                 
-    # --- EXPERIENCE & QUALIFICATIONS ---
+        # --- EXPERIENCE & QUALIFICATIONS ---
     st.write ("#")
     st.subheader ("Experience & Qulifications")
-    st.write (
-        """
-    - A
-    - B
-    - C
-
-    """
-    )
-
-
-
+    with st.container():
+        l_col, r_col = st.columns(2)
+    #     with l_col:
+    # st.image (QUALIFICATIONS_i, width=320)
+        # with r_col:
+        #     st.image (QUALIFICATIONS_i, width=130)
+        #     st.write ("""
+        #                     - test 
+        #                 """
+        #     )
 
     # --- skills ---
     st.write ("#")
