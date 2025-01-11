@@ -164,7 +164,6 @@ with st.container():
 
         """
         )
-        st.write ("#")
 
         # --- JOB 2
         st.write ("**RayaPakhsh Co. - Senior Sale Operations Specialist**")
@@ -180,7 +179,6 @@ with st.container():
 
         """
         )
-        st.write ("#")
 
         # --- JOB 3
         st.write ("**HamrahanSystemGohar Co. - Software Engineer | Financial Analyst**")
