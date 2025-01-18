@@ -74,14 +74,14 @@ with col2:
     st.write (DESCRIPTION)
     st.download_button(
         label= "📃 Dowload Resume",
-        data=PDFbyte,
-        file_name=resume_file.name,
+        data=PDFCbyte,
+        file_name=coverlatter_file.name,
         mime="application/octet-stream",
     )
     st.download_button(
         label= "📃 Dowload Cover_Latter",
-        data=PDFCbyte,
-        file_name=coverlatter_file.name,
+        data=PDFbyte,
+        file_name=resume_file.name,
         mime="application/octet-stream",
     )
     st.write("✉️", EMAIL)
@@ -144,8 +144,6 @@ with st.container():
     - 🟢	**Analytical Skills:**   `Data Governance` , `Trend Analysis` , `Forecasting` , `Variance Analysis`
     - 🟢	**Dashboard Creation:**  `Financial Dashboards Highlighting Key Performance Indicators`
     - 🟢	**Technical Skills:**    `Data visualization` , `Data Modelling` , `Data Preprocessing` , `Data Governance` 
-    - 🟢	**Software & Systems:**  `Influencing Skill` , `Report Automation` , `Decision Making` , `Analytical Thinking` , `Problem Solving` , `Data Interpretation` , `Attention To Detail` , `Organizational Skills`
-
 
     """
     )
@@ -158,44 +156,47 @@ with st.container():
     st.write ("---")
 
     # --- JOB 1
-    st.write ("**EmadAra Co. Ltd. - `Financial Systems Engineer / Data Analyst`**")
-    st.write ("September 2023 - October 2024", "(`1 Year, 1 Month`)")
+    st.write ("***Data Engineer / Data Analyst*** - EmadAra (Tehran)")
+    st.write ("September 2023 - October 2024", "(`1 Yr, 1 Mo`)")
     st.write (
         """
-    - ✅	Analysed financial performance and provided insights to improve decision-making.
+    - ✅	Analysed financial performance and provided insights to improve `decision-making` processes.
     - ✅	Developed interactive dashboards using Power BI to track key financial metrics.
     - ✅	Assisted in budgeting, forecasting, and variance analysis.
+    - ✅	Preprocesses raw data from SQL and created tables, applying `analytical thinking` to design and develop insightful dashboards.
+    - ✅	Solved complex challenges by designing and implementing a streamlined sales and return process, resulting in a `30%` increase in sales.
+
 
     """
     )
     st.write ("##")
 
     # --- JOB 2
-    st.write ("**RayaPakhsh Co. - `Senior Sale Operations Specialist`**")
-    st.write ("May 2022 - August 2023", "(`1 Year, 3 Months`)")
+    st.write ("***Senior Sale Operations Specialist*** - RayaPakhsh (Tehran)")
+    st.write ("May 2022 - August 2023", "(`1 Yr, 3 Mos`)")
     st.write (
         """
     - ✅	Controlled financial documents and created vital reports in `Excel` and `Power BI`.
     - ✅	Built and streamlined the selling process for improved accuracy.
-    - ✅	Calculated employee salaries and monitored monthly cash flows.
+    - ✅	Calculated employee salaries and monitored monthly cash flows in Excel with meticulous `attention to detail`, optimizing the payment process and making it `20%` faster.
     - ✅	Monitored the profit and loss gaps to ensure financial stability.
     - ✅	Managed and controlled the company's financial software system.
-    - ✅	Trained new employees on financial processes and software systems.
+    - ✅	Trained new employees on financial processes and software systems, leveraging `strong influencing`. skills to ensure effective knowledge transfer and team alignment.
 
     """
     )
     st.write ("##")
 
     # --- JOB 3
-    st.write ("**HamrahanSystemGohar Co. - `Software Engineer | Financial Analyst`**")
-    st.write ("April 2018 - April 2022", "(`4 Years`)")
+    st.write ("***Software Engineer | Financial Analyst*** - HamrahanSystemGohar (Tehran)")
+    st.write ("April 2018 - April 2022", "(`4 Yrs`)")
     st.write (
         """
-    - ✅	Managed financial software implementations for customers.
+    - ✅	Demonstrated strong `organizational skills` by managing financial software implementations for customers, resulting in a `13%` increase in customer satisfaction.
     - ✅	Delivered financial services and resolved customer issues related to software and accounting.
     - ✅	`Enhanced reporting` functionalities in the company's financial software.
     - ✅	Developed custom `financial reports` using `Excel` and `Power BI` for improved `decision-making`.
-    - ✅	Conducted detailed financial analysis to support strategic `business planning`.
+    - ✅	Conducted detailed financial analysis and `data interpretation` to support strategic business planning, streamlining the process to reduce completion time by `one week`.
     - ✅	Developed and maintained `financial models` for `budgeting` and `forecasting`.
     - ✅	Collaborated with senior management to provide key financial insights.
 
@@ -221,9 +222,13 @@ with st.container():
     st.write ("GPA: ")
     st.write (
         """
-    - ✅	
-    - ✅	
-    - ✅	
+    - ❇️ In the `Machine Learning` module, I became familiar with the fundamentals of machine learning, including `Support Vector Machines (SVM)`, `Decision Trees`, `Naive Bayes`, and both `supervised` and `unsupervised` learning techniques.
+        - ✳️ I had the opportunity to apply these concepts by building a machine learning model in Python to predict sales. The model achieved an impressive `97%` accuracy in its predictions.
+    - ❇️ The `Neural Networks` and `Deep Learning` module was particularly fascinating to me.
+        - ✳️ For my final assignment, I built a neural network from scratch, without using any external libraries, and earned a score of `80`.
+        - ✳️ In another deep learning project using `Google Colab`, I used multiple hidden layers to predict a company's sales for the next year, achieving top rankings on Kaggle for prediction accuracy.
+    - ❇️ In the `Combinatorial Optimization` module, I gained a deeper understanding of mathematical optimization techniques and their application to real-world problems.
+        - ✳️ I explored theories like `Mixed-Integer Linear Programming (MLP)`, `Linear Programming (LP)`, and `Linear Regression`, which significantly enhanced my ability to approach complex decision-making scenarios with mathematical rigor.
 
     """
     )
@@ -232,12 +237,12 @@ with st.container():
     # --- UNDERGRADUATE
     st.write ("**Islamic Azad University - Finance & Accounting**")
     st.write ("September 2014 - March 2018")
-    st.write ("GPA: `17.22 out 20.00`")
+    st.write ("GPA: `17.22 out 20.00` (`Top 5%` of the class)")
     st.write (
         """
-    - ✅	
-    - ✅	
-    - ✅	
+    - ❇️ 	I gained extensive knowledge of `GOCE` and `IFRS` standards, with a particular focus on financial management, where I achieved a perfect score of `20/20`.
+    - ❇️ 	My performance in financial management led to an invitation from one of my professors to work at his company.
+
 
     """
     )   
