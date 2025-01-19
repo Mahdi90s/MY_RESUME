@@ -3,6 +3,8 @@ import streamlit as st
 from pathlib import Path
 from PIL import Image
 from streamlit_lottie import st_lottie
+import os
+
 
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
@@ -10,7 +12,15 @@ css_file = current_dir /"styles" /"main.css"
 resume_file = current_dir /"assets" /"Mirmahdi Mirhashemi CV.pdf"
 coverlatter_file = current_dir /"assets" /"Mirmahdi Mirhashemi Cover Latter.pdf"
 profile_pic = current_dir /"assets" /"2189.png"
-QUALIFICATIONS_i = current_dir /"assets" /"CertificateOfCompletion_Python Essential Training_page-0001.png"
+QUALIFICATIONS_i = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python Essential Training_page-0001.png')
+QUALIFICATIONS_ii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Learning Python_page-0001.png')
+QUALIFICATIONS_iii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science and Machine Learning Essential Training Part 1_page-0001.png')
+QUALIFICATIONS_iv = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science and Machine Learning Essential Training Part 2_page-0001.png')
+QUALIFICATIONS_v = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science Essential Training Part 1_page-0001.png')
+QUALIFICATIONS_vi = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science Essential Training Part 2 _page-0001.png')
+QUALIFICATIONS_vii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for NonProgrammers-1.png')
+QUALIFICATIONS_viii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Using Large Datasets with pandas-1.png')
+
 
 
 
@@ -123,16 +133,6 @@ with st.container():
         # --- EXPERIENCE & QUALIFICATIONS ---
     st.write ("#")
     st.subheader ("Experience & Qulifications")
-    with st.container():
-        l_col, r_col = st.columns(2)
-    #     with l_col:
-    # st.image (QUALIFICATIONS_i, width=320)
-        # with r_col:
-        #     st.image (QUALIFICATIONS_i, width=130)
-        #     st.write ("""
-        #                     - test 
-        #                 """
-        #     )
 
     # --- skills ---
     st.write ("#")
@@ -203,10 +203,49 @@ with st.container():
     """
     )
 
+    # --- QULIFICATIONS ---
+    st.write ("#")
+    st.subheader ("Qulifications")
+    st.write ("---")
+
+
+    with st.container():
+        a_col, b_col, c_col, d_col, e_col = st.columns(5)
+        with a_col:
+                    profile_pic = Image.open(QUALIFICATIONS_i)
+                    st.image(profile_pic, caption="Profile Picture", width=300)
+                        
+                    profile_pic = Image.open(QUALIFICATIONS_ii)
+                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                
+                    profile_pic = Image.open(QUALIFICATIONS_iii)
+                    st.image(profile_pic, caption="Profile Picture", width=300) 
+
+                    profile_pic = Image.open(QUALIFICATIONS_iv)
+                    st.image(profile_pic, caption="Profile Picture", width=300) 
+
+        with c_col:
+                    profile_pic = Image.open(QUALIFICATIONS_v)
+                    st.image(profile_pic, caption="Profile Picture", width=300) 
+
+                    profile_pic = Image.open(QUALIFICATIONS_vi)
+                    st.image(profile_pic, caption="Profile Picture", width=300) 
+
+                    profile_pic = Image.open(QUALIFICATIONS_vii)
+                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                
+                    profile_pic = Image.open(QUALIFICATIONS_viii)
+                    st.image(profile_pic, caption="Profile Picture", width=300)
+                    
+        
+        for project, link in PROJECT.items():
+            st.write(f"[{project}]({link})") 
+                 
     # --- Projects & Accomplishments --- 
     st.write ("#")
     st.subheader ("Projects & Accomplishments")
     st.write("---")
+       
     for project, link in PROJECT.items():
         st.write(f"[{project}]({link})")
      
@@ -249,4 +288,4 @@ with st.container():
     
     
     with right_column:
-        st_lottie (lottie_coding, height=300, key="coding")
+        st_lottie (lottie_coding, height=400, key="coding")
