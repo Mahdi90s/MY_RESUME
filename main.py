@@ -14,8 +14,8 @@ coverlatter_file = current_dir /"assets" /"Mirmahdi Mirhashemi Cover Latter.pdf"
 profile_pic = current_dir /"assets" /"2189.png"
 # QUALIFICATIONS_i = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python Essential Training_page-0001.png')
 # QUALIFICATIONS_ii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Learning Python_page-0001.png')
-QUALIFICATIONS_iii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science and Machine Learning Essential Training Part 1_page-0001.png')
-QUALIFICATIONS_iv = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science and Machine Learning Essential Training Part 2_page-0001.png')
+# QUALIFICATIONS_iii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science and Machine Learning Essential Training Part 1_page-0001.png')
+# QUALIFICATIONS_iv = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science and Machine Learning Essential Training Part 2_page-0001.png')
 # QUALIFICATIONS_v = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science Essential Training Part 1_page-0001.png')
 # QUALIFICATIONS_vi = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for Data Science Essential Training Part 2 _page-0001.png')
 # QUALIFICATIONS_vii = os.path.expanduser('~/Documents/GitHub/Streamlit_Resume/MY_RESUME/assets/CertificateOfCompletion_Python for NonProgrammers-1.png')
@@ -218,11 +218,11 @@ with st.container():
         #             profile_pic = Image.open(QUALIFICATIONS_ii)
         #             st.image(profile_pic, caption="Profile Picture", width=300) 
                 
-                    profile_pic = Image.open(QUALIFICATIONS_iii)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                    # profile_pic = Image.open(QUALIFICATIONS_iii)
+                    # st.image(profile_pic, caption="Profile Picture", width=300) 
 
-                    profile_pic = Image.open(QUALIFICATIONS_iv)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                    # profile_pic = Image.open(QUALIFICATIONS_iv)
+                    # st.image(profile_pic, caption="Profile Picture", width=300) 
 
         # with c_col:
         #             profile_pic = Image.open(QUALIFICATIONS_v)
