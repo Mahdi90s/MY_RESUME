@@ -211,7 +211,7 @@ with st.container():
 
     with st.container():
         a_col, b_col, c_col, d_col, e_col = st.columns(5)
-        with a_col:
+        # with a_col:
         #             profile_pic = Image.open(QUALIFICATIONS_i)
         #             st.image(profile_pic, caption="Profile Picture", width=300)
                         
