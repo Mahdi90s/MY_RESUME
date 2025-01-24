@@ -211,30 +211,30 @@ with st.container():
     with st.container():
         a_col, b_col, c_col, d_col, e_col = st.columns(5)
         with a_col:
-                     QUALIFICATIONS_i = Image.open(QUALIFICATIONS_i)
-                     st.image(QUALIFICATIONS_i, caption="Profile Picture", width=300)
+                    QUALIFICATIONS_i = Image.open(QUALIFICATIONS_i)
+                    st.image(QUALIFICATIONS_i, caption="Profile Picture", width=300)
                         
-                    profile_pic = Image.open(QUALIFICATIONS_ii)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                    QUALIFICATIONS_ii = Image.open(QUALIFICATIONS_ii)
+                    st.image(QUALIFICATIONS_ii, caption="Profile Picture", width=300) 
                 
-                    profile_pic = Image.open(QUALIFICATIONS_iii)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
-
-                    profile_pic = Image.open(QUALIFICATIONS_iv)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                    QUALIFICATIONS_iii = Image.open(QUALIFICATIONS_iii)
+                    st.image(QUALIFICATIONS_iii, caption="Profile Picture", width=300) 
+                    
+                    QUALIFICATIONS_iv = Image.open(QUALIFICATIONS_iv)
+                    st.image(QUALIFICATIONS_iv, caption="Profile Picture", width=300) 
 
         with c_col:
-                    profile_pic = Image.open(QUALIFICATIONS_v)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                    QUALIFICATIONS_v = Image.open(QUALIFICATIONS_v)
+                    st.image(QUALIFICATIONS_v, caption="Profile Picture", width=300) 
 
-                    profile_pic = Image.open(QUALIFICATIONS_vi)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                    QUALIFICATIONS_vi = Image.open(QUALIFICATIONS_vi)
+                    st.image(QUALIFICATIONS_vi, caption="Profile Picture", width=300) 
 
-                    profile_pic = Image.open(QUALIFICATIONS_vii)
-                    st.image(profile_pic, caption="Profile Picture", width=300) 
+                    QUALIFICATIONS_vii = Image.open(QUALIFICATIONS_vii)
+                    st.image(QUALIFICATIONS_vii, caption="Profile Picture", width=300) 
                 
-                    profile_pic = Image.open(QUALIFICATIONS_viii)
-                    st.image(profile_pic, caption="Profile Picture", width=300)
+                    QUALIFICATIONS_viii = Image.open(QUALIFICATIONS_viii)
+                    st.image(QUALIFICATIONS_viii, caption="Profile Picture", width=300)
                     
         
         for project, link in PROJECT.items():
