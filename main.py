@@ -67,6 +67,7 @@ with open (resume_file, "rb") as pdf_c_file:
 with open (coverlatter_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
+QUALIFICATIONS_i = Image.open(QUALIFICATIONS_i)
 
 
 
