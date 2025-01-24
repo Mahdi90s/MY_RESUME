@@ -67,8 +67,6 @@ with open (resume_file, "rb") as pdf_c_file:
 with open (coverlatter_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
-# QUALIFICATIONS_i = Image.open(QUALIFICATIONS_i)
-
 
 
 # --- HERO SECTION ---
@@ -213,8 +211,8 @@ with st.container():
     with st.container():
         a_col, b_col, c_col, d_col, e_col = st.columns(5)
         with a_col:
-                     profile_pic = Image.open(QUALIFICATIONS_i)
-                     st.image(profile_pic, caption="Profile Picture", width=300)
+                     QUALIFICATIONS_i = Image.open(QUALIFICATIONS_i)
+                     st.image(QUALIFICATIONS_i, caption="Profile Picture", width=300)
                         
         #             profile_pic = Image.open(QUALIFICATIONS_ii)
         #             st.image(profile_pic, caption="Profile Picture", width=300) 
