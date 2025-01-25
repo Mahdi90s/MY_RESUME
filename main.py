@@ -20,7 +20,7 @@ QUALIFICATIONS_v =  current_dir /"assets" /"CertificateOfCompletion_Python for D
 QUALIFICATIONS_vi = current_dir /"assets" /"CertificateOfCompletion_Python for Data Science Essential Training Part 2 _page-0001.png"
 QUALIFICATIONS_vii = current_dir /"assets" /"CertificateOfCompletion_Python for NonProgrammers-1.png"
 QUALIFICATIONS_viii = current_dir /"assets" /"CertificateOfCompletion_Using Large Datasets with pandas-1.png"
-
+QUALIFICATIONS_XIV = current_dir /"assets" /"CertificateOfCompletion_Advanced Power BI DAX Language Formulas and Calculations-1.png"
 
 
 
@@ -222,6 +222,10 @@ with st.container():
                     
                     QUALIFICATIONS_iv = Image.open(QUALIFICATIONS_iv)
                     st.image(QUALIFICATIONS_iv, caption="Profile Picture", width=300) 
+                    
+                    QUALIFICATIONS_XIV = Image.open(QUALIFICATIONS_XIV)
+                    st.image(QUALIFICATIONS_XIV, caption="Profile Picture", width=300) 
+                    
 
         with c_col:
                     QUALIFICATIONS_v = Image.open(QUALIFICATIONS_v)
