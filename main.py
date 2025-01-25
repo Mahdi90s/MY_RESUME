@@ -225,7 +225,9 @@ with st.container():
                     
                     QUALIFICATIONS_XIV = Image.open(QUALIFICATIONS_XIV)
                     st.image(QUALIFICATIONS_XIV, caption="Advanced Power BI DAX Language Formulas and Calculations", width=300) 
-                    
+        with b_col:
+                    for project, link in PROJECT.items():
+                        st.write(f"[{project}]({link})") 
         with c_col:
                     QUALIFICATIONS_v = Image.open(QUALIFICATIONS_v)
                     st.image(QUALIFICATIONS_v, caption="Python for Data Science Essential Training P1", width=300) 
@@ -239,10 +241,7 @@ with st.container():
                     QUALIFICATIONS_viii = Image.open(QUALIFICATIONS_viii)
                     st.image(QUALIFICATIONS_viii, caption="Using Large Datasets with pandas", width=300)
                     
-        
-        for project, link in PROJECT.items():
-            st.write(f"[{project}]({link})") 
-                 
+                         
     # --- Projects & Accomplishments --- 
     st.write ("#")
     st.subheader ("Projects & Accomplishments")
