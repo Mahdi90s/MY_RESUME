@@ -213,35 +213,35 @@ with st.container():
         a_col, b_col, c_col, d_col, e_col = st.columns(5)
         with a_col:
                     QUALIFICATIONS_i = Image.open(QUALIFICATIONS_i)
-                    st.image(QUALIFICATIONS_i, caption="Python Essential Training", width=400)
+                    st.image(QUALIFICATIONS_i, caption="Python Essential Training", use_column_width=True)
                         
                     QUALIFICATIONS_ii = Image.open(QUALIFICATIONS_ii)
-                    st.image(QUALIFICATIONS_ii, caption="Learning Python", width=400) 
+                    st.image(QUALIFICATIONS_ii, caption="Learning Python", use_column_width=True) 
                 
                     QUALIFICATIONS_iii = Image.open(QUALIFICATIONS_iii)
-                    st.image(QUALIFICATIONS_iii, caption="Python for Data Science and Machine Learning Essential Training P1", width=400) 
+                    st.image(QUALIFICATIONS_iii, caption="Python for Data Science and Machine Learning Essential Training P1", use_column_width=True) 
                     
                     QUALIFICATIONS_iv = Image.open(QUALIFICATIONS_iv)
-                    st.image(QUALIFICATIONS_iv, caption="Python for Data Science and Machine Learning Essential Training P2", width=400) 
+                    st.image(QUALIFICATIONS_iv, caption="Python for Data Science and Machine Learning Essential Training P2", use_column_width=True) 
                     
                     QUALIFICATIONS_XIV = Image.open(QUALIFICATIONS_XIV)
-                    st.image(QUALIFICATIONS_XIV, caption="Advanced Power BI DAX Language Formulas and Calculations", width=400) 
+                    st.image(QUALIFICATIONS_XIV, caption="Advanced Power BI DAX Language Formulas and Calculations", use_column_width=True) 
 
         with c_col:
                     QUALIFICATIONS_v = Image.open(QUALIFICATIONS_v)
-                    st.image(QUALIFICATIONS_v, caption="Python for Data Science Essential Training P1", width=400) 
+                    st.image(QUALIFICATIONS_v, caption="Python for Data Science Essential Training P1", use_column_width=True) 
 
                     QUALIFICATIONS_vi = Image.open(QUALIFICATIONS_vi)
-                    st.image(QUALIFICATIONS_vi, caption="Python for Data Science Essential Training P2", width=400) 
+                    st.image(QUALIFICATIONS_vi, caption="Python for Data Science Essential Training P2", use_column_width=True) 
 
                     QUALIFICATIONS_vii = Image.open(QUALIFICATIONS_vii)
-                    st.image(QUALIFICATIONS_vii, caption="Python for NonProgrammers", width=400) 
+                    st.image(QUALIFICATIONS_vii, caption="Python for NonProgrammers", use_column_width=True) 
                 
                     QUALIFICATIONS_viii = Image.open(QUALIFICATIONS_viii)
-                    st.image(QUALIFICATIONS_viii, caption="Using Large Datasets with pandas", width=400)
+                    st.image(QUALIFICATIONS_viii, caption="Using Large Datasets with pandas", use_column_width=True)
                     
                     QUALIFICATIONS_XV = Image.open(QUALIFICATIONS_XV)
-                    st.image(QUALIFICATIONS_XV, caption="Statistics Foundations 1 The Basics", width=400)
+                    st.image(QUALIFICATIONS_XV, caption="Statistics Foundations 1 The Basics", use_column_width=True)
                     
                     
                     
