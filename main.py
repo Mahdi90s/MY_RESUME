@@ -21,6 +21,7 @@ QUALIFICATIONS_vi = current_dir /"assets" /"CertificateOfCompletion_Python for D
 QUALIFICATIONS_vii = current_dir /"assets" /"CertificateOfCompletion_Python for NonProgrammers-1.png"
 QUALIFICATIONS_viii = current_dir /"assets" /"CertificateOfCompletion_Using Large Datasets with pandas-1.png"
 QUALIFICATIONS_XIV = current_dir /"assets" /"CertificateOfCompletion_Advanced Power BI DAX Language Formulas and Calculations-1.png"
+QUALIFICATIONS_XV = current_dir /"assets" /"CertificateOfCompletion_Statistics Foundations 1 The Basics_page-0001"
 
 
 
@@ -36,11 +37,11 @@ SOCIAL_MEDIA = {
     "GitHub": "https://github.com/Mahdi90s",
 }
 
-PROJECT = {
-    "A": "--",
-    "B": "--"
+# PROJECT = {
+#     "A": "--",
+#     "B": "--"
     
-}
+# }
 
 st.set_page_config (page_title=Page_TITLE, page_icon=PAGE_ICON, layout='wide', initial_sidebar_state='expanded')
 
@@ -212,43 +213,46 @@ with st.container():
         a_col, b_col, c_col, d_col, e_col = st.columns(5)
         with a_col:
                     QUALIFICATIONS_i = Image.open(QUALIFICATIONS_i)
-                    st.image(QUALIFICATIONS_i, caption="Python Essential Training", width=300)
+                    st.image(QUALIFICATIONS_i, caption="Python Essential Training", width=500)
                         
                     QUALIFICATIONS_ii = Image.open(QUALIFICATIONS_ii)
-                    st.image(QUALIFICATIONS_ii, caption="Learning Python", width=300) 
+                    st.image(QUALIFICATIONS_ii, caption="Learning Python", width=500) 
                 
                     QUALIFICATIONS_iii = Image.open(QUALIFICATIONS_iii)
-                    st.image(QUALIFICATIONS_iii, caption="Python for Data Science and Machine Learning Essential Training P1", width=300) 
+                    st.image(QUALIFICATIONS_iii, caption="Python for Data Science and Machine Learning Essential Training P1", width=500) 
                     
                     QUALIFICATIONS_iv = Image.open(QUALIFICATIONS_iv)
-                    st.image(QUALIFICATIONS_iv, caption="Python for Data Science and Machine Learning Essential Training P2", width=300) 
+                    st.image(QUALIFICATIONS_iv, caption="Python for Data Science and Machine Learning Essential Training P2", width=500) 
                     
                     QUALIFICATIONS_XIV = Image.open(QUALIFICATIONS_XIV)
-                    st.image(QUALIFICATIONS_XIV, caption="Advanced Power BI DAX Language Formulas and Calculations", width=300) 
-        with b_col:
-                    for project, link in PROJECT.items():
-                        st.write(f"[{project}]({link})") 
+                    st.image(QUALIFICATIONS_XIV, caption="Advanced Power BI DAX Language Formulas and Calculations", width=500) 
+
         with c_col:
                     QUALIFICATIONS_v = Image.open(QUALIFICATIONS_v)
-                    st.image(QUALIFICATIONS_v, caption="Python for Data Science Essential Training P1", width=300) 
+                    st.image(QUALIFICATIONS_v, caption="Python for Data Science Essential Training P1", width=500) 
 
                     QUALIFICATIONS_vi = Image.open(QUALIFICATIONS_vi)
-                    st.image(QUALIFICATIONS_vi, caption="Python for Data Science Essential Training P2", width=300) 
+                    st.image(QUALIFICATIONS_vi, caption="Python for Data Science Essential Training P2", width=500) 
 
                     QUALIFICATIONS_vii = Image.open(QUALIFICATIONS_vii)
-                    st.image(QUALIFICATIONS_vii, caption="Python for NonProgrammers", width=300) 
+                    st.image(QUALIFICATIONS_vii, caption="Python for NonProgrammers", width=500) 
                 
                     QUALIFICATIONS_viii = Image.open(QUALIFICATIONS_viii)
-                    st.image(QUALIFICATIONS_viii, caption="Using Large Datasets with pandas", width=300)
+                    st.image(QUALIFICATIONS_viii, caption="Using Large Datasets with pandas", width=500)
+                    
+                    QUALIFICATIONS_XV = Image.open(QUALIFICATIONS_XV)
+                    st.image(QUALIFICATIONS_XV, caption="Statistics Foundations 1 The Basics", width=500)
+                    
+                    
                     
                          
     # --- Projects & Accomplishments --- 
-    st.write ("#")
-    st.subheader ("Projects & Accomplishments")
-    st.write("---")
+    # st.write ("#")
+    # st.subheader ("Projects & Accomplishments")
+    # st.write("---")
        
-    for project, link in PROJECT.items():
-        st.write(f"[{project}]({link})")
+    # for project, link in PROJECT.items():
+    #     st.write(f"[{project}]({link})")
      
      
      # --- EDUCATION HISTORY ---
