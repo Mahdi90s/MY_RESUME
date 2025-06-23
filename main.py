@@ -28,7 +28,7 @@ QUALIFICATIONS_XV = current_dir /"assets" /"CertificateOfCompletion_Statistics F
 # --- GENERAL SETTINGS ---
 Page_TITLE = "My Portfolio"
 PAGE_ICON = "🌐"
-NAME = "Hi, my name is Mahdi 👋🏼"
+NAME = "Hi, my name is Matt 👋🏼"
 TITLE = "Transforming Data into Decisions: A Data Scientist's Story"
 DESCRIPTION = "Data is the canvas, and analytics is my brush. This portfolio is a reflection of my journey—a blend of creativity, science, and problem-solving to transform data into impactful solutions."
 EMAIL = "mirhashemim7@gmail.com"
